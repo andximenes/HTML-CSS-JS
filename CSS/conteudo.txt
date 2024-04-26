@@ -3,3 +3,12 @@ Aula 01 - O que é css e css inline
 Aula 02 - Css interno(Incorporado na página)
 
 Aula 03 - Css Externo
+
+aula 04 - Seletores e Classes
+
+aula 05 - Propriedade color
+
+aula 06 - Propriedade Background
+
+aula 07 - Propriedade border
+
