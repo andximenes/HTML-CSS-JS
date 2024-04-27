@@ -3,16 +3,74 @@ body{
 }
 
 h1{
-    color: red;
+    text-align: center;
+    /*top - right - botton - left*/
+    /*margin: 50px 50px 50px 50px;*/ 
+    padding: 10px;
+    color: #ffffff;
+    border: 5px solid black;
+    border-radius: 10px;
+    background: black;
 }
 
 p{
     color: #03034d;
+   text-align: justify;
+   
 }
 
 .exemplo-back{
     height: 300px;
     background: gray no-repeat center url(/img/cidade.jpg );
     background-size: cover;
- 
+    margin-bottom: 100px;
+}
+
+.btn-ir-voltar{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin-left: 45%;
+    background-color: rgb(234, 134, 12);
+    transition: 0.5s;
+}
+.btn-ir-voltar:hover{
+    background:orange;
+    color: black;
+}
+
+/* TESTES DE DISPLAY*/
+#teste-displays{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.displayBlock{
+    background-color: red;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 50px;
+    margin-bottom: 25px;
+}
+
+.displayInLine{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(51, 0, 255);
+    border: 5px solid rgb(0, 0, 0);
+    margin-left: 30px;
+    padding: 10px;
+    
+}
+
+.testeInLine{
+    margin-top: 200px;
+    display: inline;
+
+}
+/*Ocultando display*/
+#p2{
+    margin-top: 50px;
+    display: none;
 }

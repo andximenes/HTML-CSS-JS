@@ -12,3 +12,28 @@ aula 06 - Propriedade Background
 
 aula 07 - Propriedade border
 
+aula 08 - propriedade Margin
+
+aula 09 - Propriedade padding e criando um btn simples
+
+aula 10 - Propriedade width e Heigth
+
+aula 11 - Propriedade Text
+
+aula 12 - Propriedade font
+
+aula 13 - Estilização de Links
+
+aula 14 - Propriedades Display
+            tags que utilizam display do tipo block:
+            - <p>
+            - <form>
+            - <header>
+            - <footer>
+            - <section>
+
+             tags que utilizam display do tipo inLine:
+             - <a>
+             - <span>
+             - <link>
+             - <img>
