@@ -32,8 +32,33 @@ aula 14 - Propriedades Display
             - <footer>
             - <section>
 
-             tags que utilizam display do tipo inLine:
+             tags que utilizam display do tipo inLine: 
+             O conteúdo inLine não permite o uso de propriedades como: "width", "height", "margin", entretanto, ele aceita a propriedade "padding", por se tratar de um conteúdo em linha (inline)
              - <a>
              - <span>
              - <link>
              - <img>
+
+             Propriedade inLineBlock:
+             Com essa propriedade podemos ter objetos que obedenção tantos os parâmetros block e inline.
+
+             None x visibility
+             
+             Nome - remove o elemento, tag ou div.
+             Visibility - Apenas remove a visulização, mas o espaço do objeto ainda continua na página.
+
+aula 15 - Propriedade Max-Width
+
+aula 16 - Propriedade Position
+        positon é a posição do elemento em relação a tela ou ao container...
+
+        - static: positon padrão (parado)
+
+        - fixed: Você pode determinar o posicionamento fixo que o objeto deve obedecer em relação a toda tela (body)
+
+        - sticky: "Adesivo" obedece o perimetro em relação a div "pai". usa-se o top = "0";
+
+        - relative: Relativo a posição dela ao body (toda a tela). propriedade que podem ser usadas , top, right, bottom, left.
+        pode-se usar o padrão z-index (camadas de elementos,ou seja, um elemento sobre outro)
+
+        - absolute: Relativo a posição aonde está contida, ou seja, em nosso exemplo a div-2 está contida na div="container", então, nossa "div" deverá respectivamente, obedecer o perímetro estabelecido pela div "container". PARA QUE ESSA PROPRIEDADE POSITION = ABSOLUTE APLICADA AO ELEMENTO "Filho" POSSA FUNCIONAR, a área onde o elemento filho está contida (área Pai) precisa ter qualquer tipo de POSITION APLICADA, MENOS A OPÇÃO POSITION = STATIC; 
