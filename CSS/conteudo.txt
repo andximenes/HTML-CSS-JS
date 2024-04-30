@@ -61,4 +61,37 @@ aula 16 - Propriedade Position
         - relative: Relativo a posição dela ao body (toda a tela). propriedade que podem ser usadas , top, right, bottom, left.
         pode-se usar o padrão z-index (camadas de elementos,ou seja, um elemento sobre outro)
 
-        - absolute: Relativo a posição aonde está contida, ou seja, em nosso exemplo a div-2 está contida na div="container", então, nossa "div" deverá respectivamente, obedecer o perímetro estabelecido pela div "container". PARA QUE ESSA PROPRIEDADE POSITION = ABSOLUTE APLICADA AO ELEMENTO "Filho" POSSA FUNCIONAR, a área onde o elemento filho está contida (área Pai) precisa ter qualquer tipo de POSITION APLICADA, MENOS A OPÇÃO POSITION = STATIC; 
+        - absolute: Relativo a posição aonde está contida, ou seja, em nosso exemplo a div-2 está contida na div="container", então, nossa "div" deverá respectivamente, obedecer o perímetro estabelecido pela div "container". PARA QUE ESSA PROPRIEDADE POSITION = ABSOLUTE APLICADA AO ELEMENTO "Filho" POSSA FUNCIONAR, a área onde o elemento filho está contida (área Pai) precisa ter qualquer tipo de POSITION APLICADA, MENOS A OPÇÃO POSITION = STATIC;
+
+aula 17 - Propriedade Overflow
+         Determina como o conteúdo vai se comportar dentro de uma div que tenha sua      altura ou largura específica. Dependendo da medida da DIV o conteúdo não obedeça o tamanho determinado, por isso, usamos o overflow para estilizar o comportamento do conteúdo dentro da div.
+        overflow: auto, 
+                  hidden;
+                  scrool etc..
+        podemos usar o overflow para oculta a barra de rolagem (eixo "y") ou ocultar o eixo "x" do body
+        
+        body{
+                overflow-y: hidden;
+                overflow-x: hidden;
+        }
+
+aula 18 - Propriedade Float 
+        Detemina o posicionamento sobre/por cima(float) do elemento pai.
+        .container img{
+             float: left/ right;
+             
+        }
+
+        podemos usar uma propriedade " style: clear: both", em uma tag especifica para que não seja aplicado o float na tag.
+
+aula 19 - Propriedade Opacity
+        Determina uma transparência no elemento.
+        opacity: 0.1 a 1.0
+
+aula 20 - Efeito DropDown
+
+aula 21 - Especificidades Css
+
+aula 22 - Regra !important
+
+aula 23 - Efeito gradiente

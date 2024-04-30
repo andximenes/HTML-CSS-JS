@@ -1,0 +1,61 @@
+.exemplo{
+    color: black;
+    background: yellow;
+    height: 80px;
+    overflow:auto;
+}
+
+/*Float + overflow*/
+
+.container{
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.container img{
+    float: left;
+    margin-right: 20px;
+}
+
+ul{
+    background: black;
+    padding: 20px;
+}
+
+li{
+    display: inline-block;
+}
+
+li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
+}
+li a:hover{
+    background: #cecdcc;
+    color: black;
+}
+
+.btn-esquerda{
+    float: right;
+    
+}
+
+.btn-esquerda a:hover{
+    color:white;
+    background: red;
+}
+
+/* OPACIDADE*/
+.img-1:hover{
+    opacity: 0.8;
+    
+}
+
+.img-2{
+    opacity: 0.5;
+}
+
+.img-3{
+    opacity: 0.2;
+}

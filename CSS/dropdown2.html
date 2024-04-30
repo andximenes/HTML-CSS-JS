@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .drop-content{
+            display: none;
+            position: absolute;
+            background: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+
+        .dropdown:hover .drop-content{
+            display: block;
+        }
+
+       .drop-content a{
+            text-decoration: none;
+        }
+    </style>
+    <title>Dropdown 2</title>
+</head>
+<body>
+    <h1>Dropdown</h1>
+    <div class="dropdown">
+        <span>Passe o mouse aqui</span>
+        <div class="drop-content">
+            <a href="#">Link</a>
+        </div>
+    </div>
+</body>
+</html>
