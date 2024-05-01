@@ -95,3 +95,13 @@ aula 21 - Especificidades Css
 aula 22 - Regra !important
 
 aula 23 - Efeito gradiente
+
+aula 24 - Propriedade text shadow e box shadow
+
+aula 25 - Efeitos de Texto
+
+aula 26 - Media Queries
+        Comportamento do layout do site em diferentes dispositivos (respossividade).
+
+aula 27 - Flexbox - responsividade de maneira simples.
+        

@@ -1,0 +1,28 @@
+*{
+   box-sizing: border-box; 
+}
+
+.flex-pai{
+    height: 600px;
+    background: blue;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: row wrap;*/
+    justify-content:center;
+    align-content: center;
+
+}
+
+.flex-pai div{
+    background: white;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+
+    flex-grow: 1; /*altera o tamanho das div uniformemente*/
+    
+}
+

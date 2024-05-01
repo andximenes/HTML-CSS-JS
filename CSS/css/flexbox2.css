@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    background: greenyellow;
+    padding: 80px;
+    text-align: center;
+}
+
+.nav-bar{ /*Pai*/
+    background:black;
+    display: flex;
+    justify-content:center;
+}
+
+.nav-bar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-bar a:hover{
+    background: gray;
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 700px){
+    .nav-bar{
+        flex-direction: column;
+    }
+
+    .nav-bar a{
+        border: 1px solid white;
+    }
+}
+
+.corpo{ /*Pai*/
+    display: flex;
+    flex-flow:row wrap;
+}
+
+.card{
+    flex-grow: 1;
+    background: rgb(174, 174, 174);
+    height: 300px;
+    margin: 1%;
+}
