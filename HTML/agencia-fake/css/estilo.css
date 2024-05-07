@@ -19,20 +19,24 @@ body{
     align-items: center;
     height: 100px; 
     background: white;
+    position: fixed;
+    width: 100%;
+
 }
 
 .logo{
-    flex: 20%;
-    text-align: center;
-    margin-left: 10%;
-
-}
+    flex:20%;
+    text-align: left;
+    margin-left: 150px;
+    
+} 
 
 .logo h1{
     font-family: "Lobster", sans-serif;
     color:#180f4a;
     font-size: 34px;
-    text-align: left;
+    
+    
 }
 
 .menu{
@@ -42,11 +46,13 @@ body{
 
 }
 
+
 .menu a{
     color:#180f4a;
     text-decoration: none;
     font-size: 20px;
-    padding: 20px 16px
+    padding: 20px 16px;
+
 }
 
 .menu a:hover{
@@ -75,6 +81,7 @@ body{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
 }
 
 .headline{
@@ -208,4 +215,5 @@ footer{
     position: fixed;
     bottom: 5px;
     right: 5px;
+  
 }
