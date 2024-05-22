@@ -1,0 +1,6 @@
+Aula 01 - Js interno e Externo.
+aula 02 - Tipos de saída.
+aula 03 - Declarações.
+aula 04 - Sintaxe.
+aula 05 - comentários.
+aula 06 - Var, Let e Const
