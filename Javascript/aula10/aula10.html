@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 10 - Eventos</title>
+</head>
+<body>
+    <p id="txt"></p>
+    <!--ONCLICK-->
+    <h2>Onclick</h2>
+    <button onclick="oneClick()">Clique aqui</button>
+    <br>
+
+    <!--DOUBLE CLICK-->
+    <H2>Double Click</H2>
+    <button ondblclick="dbClick()">Clique aqui</button>
+    <br>
+
+    <!--EVENTOS DE MOUSE-->
+    <h2>onmouseover e onmouseout</h2>
+    <div id="mouse_over_out" onmouseover="vermelho()" onmouseout="azul()" style="width: 80%; height: 200px; background:blue;"></div>
+    <br>
+
+    <h2>onfocus</h2>
+    <input onfocus="limpaTxt()" id="cxTxt" style="padding: 80px; font-size: 40px;" type="text" placeholder="Digite alguma coisa" value="Texto de exemplo">
+
+    
+
+
+
+
+    <script src="/aula10/js/aula10.js"></script>
+</body>
+</html>

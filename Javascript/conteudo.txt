@@ -3,4 +3,18 @@ aula 02 - Tipos de saída.
 aula 03 - Declarações.
 aula 04 - Sintaxe.
 aula 05 - comentários.
-aula 06 - Var, Let e Const
+aula 06 - Var, Let e Const.
+aula 07 - Operadores.
+aula 08 - Funções.
+aula 09 - Objetos.
+
+aula 10 - Eventos.
+        - Evento onclick
+        - Evento ondblclick
+    '   - Eventos de mouse
+        - Evento onfocus
+        - Evento onchange
+        - Evento onblur
+        - Eventos de teclado
+        - Evento onload
+        - Evento onresize
