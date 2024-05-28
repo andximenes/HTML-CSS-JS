@@ -20,3 +20,4 @@ aula 10 - Eventos.
         - Evento onresize
 
 aula 16 - SetTimeout e setInterval
+aula17 - classes.
