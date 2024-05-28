@@ -18,3 +18,5 @@ aula 10 - Eventos.
         - Eventos de teclado
         - Evento onload
         - Evento onresize
+
+aula 16 - SetTimeout e setInterval

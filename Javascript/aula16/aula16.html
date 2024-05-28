@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set interval e set timeout</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .start{
+            padding: 30px;
+            margin-right: 20px;
+            border: none;
+            background-color: greenyellow;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .start:hover{
+            background-color: rgb(160, 232, 52);
+        }
+        .stop{
+            padding: 30px;
+            border: none;
+            background-color: orangered;
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+        }
+        .stop:hover{
+            background-color: rgb(221, 0, 88);
+        }
+    </style>
+</head>
+<body>
+    <h1>Controle de Tempos</h1>
+    <h2 id="tempo">0</h2>
+    <button onclick="ativarContagemInterval()" class="start">Ativar contagem</button>
+    <button onclick="pararContagem()" class="stop">Parar Contagem</button>
+    
+    <script src="/aula16/js/aula16.js"></script>
+</body>
+</html>
