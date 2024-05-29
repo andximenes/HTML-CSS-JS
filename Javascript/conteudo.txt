@@ -14,10 +14,15 @@ aula 10 - Eventos.
     '   - Eventos de mouse
         - Evento onfocus
         - Evento onchange
-        - Evento onblur
+        - Evento onblur  
         - Eventos de teclado
         - Evento onload
         - Evento onresize
 
 aula 16 - SetTimeout e setInterval
-aula17 - classes.
+
+aula 17 - classes.
+
+aula 18 - Manipulação de Datas.
+
+aula 19 - JSON.
