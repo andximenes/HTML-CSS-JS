@@ -26,3 +26,5 @@ aula 17 - classes.
 aula 18 - Manipulação de Datas.
 
 aula 19 - JSON.
+
+aula 20 - Projeto - Lista de Tarefas
