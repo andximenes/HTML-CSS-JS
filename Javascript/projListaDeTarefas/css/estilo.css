@@ -62,6 +62,7 @@ main{
     margin-bottom: 2%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    cursor: pointer;
 }
 
 .item.clicado{
@@ -98,7 +99,7 @@ main{
    width: 100%;
 }
 
-#checado{
+#clicado{
     color: rgb(255, 255, 255);
     background: green;
     border-radius: 15px;
